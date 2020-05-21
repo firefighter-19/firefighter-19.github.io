@@ -26,8 +26,8 @@
                 <li>
                   <a href="#article" class="item__link">about</a>
                   <a href="#roadmap" class="item__link">roadmap</a>
-                  <a href="" class="item__link">comminity</a>
-                  <a href="" class="item__link">team</a>
+                  <a href="#comminity" class="item__link">comminity</a>
+                  <a href="#team" class="item__link">team</a>
                   <a href="" class="item__link">events</a>
                   <a href="" class="item__link">swap</a>
                 </li>
@@ -161,25 +161,60 @@
         </div>
       </article>
     </div>
-    <footer class="footer">
-      <div class="footer__container">
-        <div class="footer__upper">
-          <div class="footer__upper__twitter">
-            <a href="#"><img src="source/footer/twitter.png" alt="twitter"></a>
+    <div class="community">
+      <a name="about" class="anchor" id="comminity"></a>
+      <div class="team__community__title">
+        <h2>comminity</h2>
+      </div>
+      <div class="footer__upper">
+        <div class="footer__upper__social">
+          <a href="https://twitter.com/Falcon_SBS"><img src="source/footer/twitter.png" alt="twitter"></a>
+        </div>
+        <div class="footer__upper__social">
+          <a href="https://t.me/Falcon_official"><img src="source/footer/tg.png" alt="twitter"></a>
+        </div>
+        <div class="footer__upper__social">
+          <a href="#"><img src="source/footer/bitcoin.png" alt="twitter"></a>
+        </div>
+        <div class="footer__upper__social">
+          <a href="#"><img src="source/footer/fb.png" alt="twitter"></a>
+        </div>
+        <div class="footer__upper__social">
+          <a href="#"><img src="source/footer/instagram.png" alt="twitter"></a>
+        </div>
+      </div>
+    </div>
+    <div class="team__members">
+      <a name="about" class="anchor" id="team"></a>
+      <div class="team__community__title">
+        <h2>team members</h2>
+      </div>
+      <div class="team__members__list">
+        <div class="team__members-list-admins">
+          <div class="team">
+            <h6>Co-founders:</h6>
           </div>
-          <div class="footer__upper__telegram">
-            <a href="#"><img src="source/footer/tg.png" alt="twitter"></a>
-          </div>
-          <div class="footer__upper__bitcoin">
-            <a href="#"><img src="source/footer/bitcoin.png" alt="twitter"></a>
-          </div>
-          <div class="footer__upper__facebook">
-            <a href="#"><img src="source/footer/fb.png" alt="twitter"></a>
-          </div>
-          <div class="footer__upper__instagram">
-            <a href="#"><img src="source/footer/instagram.png" alt="twitter"></a>
+          <div class="team-links">
+            <a href="https://twitter.com/lavrus_crypto"><img class="team-links-twitter" src="source/1stPage/twitterfoot.svg">Dmitriy aka Lavrus</a>
+            <a href="https://twitter.com/Falcon_Pr0ject"><img class="team-links-twitter" src="source/1stPage/twitterfoot.svg">Ivan</a>
+            <a href="https://twitter.com/deadlinelogo"><img class="team-links-twitter" src="source/1stPage/twitterfoot.svg">Deadlinelogo</a>
+            <a href="https://twitter.com/agud_falcon"><img class="team-links-twitter" src="source/1stPage/twitterfoot.svg">Alex Good</a>
           </div>
         </div>
+        <div class="team__members-list-helpers">
+          <div class="team">
+            <h6>Team:</h6>
+          </div>
+          <div class="team-links">
+            <a href="https://twitter.com/vi_taly"><img class="team-links-twitter" src="source/1stPage/twitterfoot.svg">Vitaly</a>
+            <a href="https://twitter.com/shinobi_win"><img class="team-links-twitter" src="source/1stPage/twitterfoot.svg">Shinobi</a>
+            <a href="https://twitter.com/1mkoma"><img class="team-links-twitter" src="source/1stPage/twitterfoot.svg">M K</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__container">
         <div class="footer__lower">
           <div class="footer__lower__logo">
             <img src="source/footer/falconlogo.png" alt="Falcon's Logo">
