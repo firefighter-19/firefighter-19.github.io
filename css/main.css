@@ -477,7 +477,7 @@ body.lock {
 
 .article__about__title {
   font-family: "BankGothicMdBT";
-  font-size: calc(14px + 14 * ((100vw - 320px) / (1180 - 320)));
+  font-size: calc(14px + 8 * ((100vw - 320px) / (1180 - 320)));
   text-decoration: underline;
   margin: 0 0 20px 0;
 }
@@ -486,7 +486,7 @@ body.lock {
   display: flex;
   justify-content: space-between;
   margin: 0 0 60px 0;
-  font-size: calc(14px + 6 * ((100vw - 320px) / (1180 - 320)));
+  font-size: calc(14px + 2 * ((100vw - 320px) / (1180 - 320)));
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
 }
@@ -536,7 +536,7 @@ body.lock {
 
 .about__article__text {
   font-family: "Montserrat", sans-serif;
-  font-size: calc(14px + 6 * ((100vw - 320px) / (1180 - 320)));
+  font-size: calc(14px + 2 * ((100vw - 320px) / (1180 - 320)));
 }
 
 .article__about__footer {
@@ -551,7 +551,7 @@ body.lock {
 
 .about__footer__description {
   padding: 0 0 20px 0;
-  font-size: calc(14px + 6 * ((100vw - 320px) / (1180 - 320)));
+  font-size: calc(14px + 2 * ((100vw - 320px) / (1180 - 320)));
 }
 
 .article__about__footer-image {
@@ -565,7 +565,7 @@ body.lock {
 
 .article__about__footer-important {
   padding: 20px 0;
-  font-size: calc(14px + 4 * ((100vw - 320px) / (1180 - 320)));
+  font-size: calc(14px + 2 * ((100vw - 320px) / (1180 - 320)));
 }
 
 .article__container-roadmap {
