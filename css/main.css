@@ -259,7 +259,7 @@ body.lock {
 }
 @media (max-width: 968px) {
   .nav__menu__list-item li {
-    padding: 160px 0 0 0;
+    padding: 190px 0 0 0;
     min-height: 400px;
     display: flex;
     flex-direction: column;
@@ -334,18 +334,17 @@ body.lock {
   }
   .nav__container__burger.active span {
     width: 30px;
-    left: 2.5px;
-    top: 2px;
+    left: 3px;
     transform: scale(0);
     background: linear-gradient(264.69deg, #FF003D -7.43%, #FF03C8 100%);
   }
   .nav__container__burger.active span:first-child {
     transform: rotate(45deg);
-    top: 16px;
+    top: 17px;
   }
   .nav__container__burger.active span:last-child {
     transform: rotate(-45deg);
-    top: 16px;
+    top: 17px;
   }
 }
 
@@ -417,7 +416,7 @@ body.lock {
   .main__head__description {
     text-align: center;
     padding: 0 35px;
-    line-height: 15px;
+    line-height: 20px;
   }
 }
 
