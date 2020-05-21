@@ -411,10 +411,10 @@ body.lock {
 
 .main__head__description {
   display: flex;
-  font-family: "BankGothicMdBT";
+  font-family: "Montserrat", sans-serif;
   font-size: calc(14px + 16 * ((100vw - 320px) / (1180 - 320)));
   line-height: 42px;
-  padding: 15px 40px 0 15px;
+  padding: 15px 40px 0 5px;
 }
 @media (max-width: 968px) {
   .main__head__description {
