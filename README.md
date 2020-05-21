@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-  <link rel="shortcut icon" href="source/falconlogo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="" type="image/x-icon">
   <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <title>Falcon Project</title>
 </head>
@@ -28,15 +28,17 @@
                   <a href="#roadmap" class="item__link">roadmap</a>
                   <a href="" class="item__link">comminity</a>
                   <a href="" class="item__link">team</a>
-                  <a href="events.html" class="item__link">events</a>
+                  <a href="" class="item__link">events</a>
                   <a href="" class="item__link">swap</a>
                 </li>
               </ul>
             </div>
             <div class="nav__menu__links">
               <a href=""><img src="source/1stPage/fb.svg" alt=""></a>
-              <a href=""><img src="source/1stPage/twitter.svg" alt=""></a>
-              <a href=""><img src="source/1stPage/tg.svg" alt=""></a>
+              <a href="https://twitter.com/Falcon_SBS">
+                <img src="source/1stPage/twitter.svg" alt=""></a>
+              <a href="https://t.me/Falcon_official">
+                <img src="source/1stPage/tg.svg" alt=""></a>
             </div>
           </nav>
         </div>
@@ -66,7 +68,7 @@
         </div>
       </section>
       <article class="article">
-        <a class="anchor" id="article"></a>
+        <a name="about" class="anchor" id="article"></a>
         <div class="article__container">
           <div class="article__about">
             <div class="article__about__title">
@@ -109,40 +111,50 @@
             </div>
           </div>
         </div>
-        <a class="anchor" id="roadmap"></a>
+        <a name="about" class="anchor" id="roadmap"></a>
         <div class="article__container-roadmap">
           <div class="article__roadmap">
             <div class="article__roadmap__title">
               <h3>roadmap</h3>
             </div>
             <div class="image__date">2020</div>
+            <div class="image__calendar">
+              <img src="source/1stPage/calendar.png" alt="Calendar">
+            </div>
             <div class="article__roadmap__roadmap__container">
               <div class="article__roadmap__description">
-                <div class="article__roadmap__description-goal">
-                    <span class="goal-achieved"><img src="source/1stPage/achieved.svg" alt="">Website Creation</span>
-                    <span class="goal-achieved"><img src="source/1stPage/achieved.svg" alt="">Creating an ERC-20 Token</span>
-                    <span class="goal-achieved"><img src="source/1stPage/achieved.svg" alt="">
-                      Creating Collectible cards ERC-1155
-                    </span>
-                    <span class="goal-achieved"><img src="source/1stPage/achieved.svg" alt="">Airdrop stage 1</span>
-                    <span class="goal-achieved"><img src="source/1stPage/achieved.svg" alt="">Airdrop stage 2</span>
-                    <span class="goal">Airdrop stage 3</span>
-                    <span class="goal-achieved"><img src="source/1stPage/achieved.svg" alt="">
-                      Creation of an swap mechanism between a token and a coin
-                    </span>
+                <div class="article__roadmap__description-goal-one">
+                  <span class="goal-achieved"><img src="source/1stPage/achieved.svg" alt="">Website development and design</span>
+                  <span class="goal-achieved"><img src="source/1stPage/achieved.svg" alt="">Creating an ERC-20 Token</span>
+                  <span class="goal-achieved"><img src="source/1stPage/achieved.svg" alt="">
+                      Creation STAGE collection cards and vouchers ERC-1155
+                  </span>
+                  <span class="goal-achieved"><img src="source/1stPage/achieved.svg" alt="">Airdrop stage 1</span>
+                  <span class="goal-achieved"><img src="source/1stPage/achieved.svg" alt="">Airdrop stage 2</span>
+                  <span class="goal">Airdrop FNT token to STAGE holders.</span>
+                </div>
+                <div class="article__roadmap__description-goal-two">
+                  <span class="goal">Testing existing Anonymous Blockchains</span>
+                  <span class="goal">Creating and launching FNC, Falcon anonymous blockchain</span>
+                  <span class="goal">Launching the FNT to FNC swap system</span>
+                </div>
+                <div class="article__roadmap__description-goal-three">
+                  <span class="goal">Falcon Project Ecosystem Expansion</span>
                 </div>
               </div>
               <div class="article__roadmap__description-image">
                 <img src="source/1stPage/arrow.png" alt="">
               </div>
               <div class="article__roadmap__description-calendar">
-                <div class="calendar__image">
-                  <img src="source/1stPage/calendar.svg" alt="">
+                <div class="roadmap-description-calendar-goal-one">
+                  <span class="goal-calendar">Exchange listings</span>
+                  <span class="goal-calendar">Launching a token swap system for a voucher</span>
+                  <span class="goal-calendar">Launching the Proof of Hold Reward System</span>
                 </div>
-                <span class="goal-calendar">
-                  Listings on exchanges Creating an anonymous coin
-                </span>
-                <span class="goal-calendar">DEX Payment system integration</span>
+                <div class="roadmap-description-calendar-goal-two">
+                  <span class="goal-calendar">Expanding the impact of the project through integrations and establishing friendly communications with leading industry projects and gaming platforms
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -182,4 +194,3 @@
 <script src="js/script.js"></script>
 </body>
 </html>
-
