@@ -28,6 +28,9 @@ const changeBg = () => {
 }
 changeBg ();
 
+let changedHeight = $('')
+
+
 jQuery(document).ready(function() {
   jQuery(".item__link").click(function () {
   elementClick = jQuery(this).attr("href")
@@ -39,8 +42,8 @@ jQuery(document).ready(function() {
 
 const burgerSlide = () => {
   const burger = document.querySelector('.nav__container__burger');
-  const nav = document.querySelector ('.header__container');
-  const navLinks = document.querySelectorAll ('.nav__menu__list-item li');
+  let nav = document.querySelector ('.header__container');
+  let navLinks = document.querySelectorAll ('.nav__menu__list-item li a');
   const lock = document.querySelector ('body');
 
   burger.addEventListener('click',()=> {
@@ -52,10 +55,16 @@ const burgerSlide = () => {
         if (link.style.animation) {
             link.style.animation = '';
         } else {
-        link.style.animation = `fade 0.5s ease forwards ${i / 7 + 0.2}s`;
+        link.style.animation = `fade 0.5s ease forwards ${i / 7 + 1.5}s`;
         }
       });
-    });
+   });
 };
 
 burgerSlide();
+
+
+$(".nav__menu__list-item li a").click(function(){
+$(".header__container").removeClass('active')
+$("body").removeClass('lock')
+})
