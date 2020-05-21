@@ -588,23 +588,41 @@ body.lock {
   margin: 0 0 20px 0;
 }
 
+.image__date {
+  font-family: "BankGothicMdBT";
+}
+
 .article__roadmap__roadmap__container {
   display: flex;
   flex: 0 0 33.333%;
   justify-content: center;
 }
 
-.article__roadmap__description {
-  max-width: 400px;
+.image__calendar {
+  position: absolute;
+  top: 3vh;
+  right: 3vh;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
-.article__roadmap__description-goal {
-  line-height: 40px;
-  font-family: "BankGothicMdBT";
+.article__roadmap__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 25px;
+  max-width: 300px;
+  font-family: "Montserrat", sans-serif;
 }
+.article__roadmap__description .goal {
+  padding: 0 0 10px 0;
+}
+@media (max-width: 968px) {
+  .article__roadmap__description {
+    line-height: 15px;
+  }
+}
+
 @media (max-width: 968px) {
   .article__roadmap__description-goal {
     line-height: 20px;
@@ -622,12 +640,12 @@ body.lock {
 }
 .goal-achieved img {
   position: relative;
-  top: 12px;
-  right: 4px;
+  top: 6px;
+  right: 8px;
 }
 @media (max-width: 968px) {
   .goal-achieved img {
-    top: 0px;
+    top: -1px;
     right: 15px;
   }
 }
@@ -645,8 +663,8 @@ body.lock {
 }
 
 .article__roadmap__description-image {
-  flex: 0 0 30px;
-  margin: 0 auto;
+  flex: 0 0 40px;
+  margin: 0 20px;
 }
 .article__roadmap__description-image img {
   object-fit: cover;
@@ -655,28 +673,34 @@ body.lock {
 }
 @media (max-width: 968px) {
   .article__roadmap__description-image {
-    flex: 0 0 15px;
+    flex: 0 0 40px;
+    margin: 0 10px;
   }
 }
 
 .image__date {
-  font-family: "BankGothicMdBT";
   font-size: 26px;
   padding: 10px;
   text-align: center;
 }
 
 .article__roadmap__description-calendar {
-  font-family: "BankGothicMdBT";
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 120px 0 0 0;
+  max-width: 300px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.roadmap-description-calendar-goal-two {
+  padding: 20px 0 0 0;
 }
 
 .calendar__image {
   display: flex;
   justify-content: flex-end;
-  flex: 0 0 50px;
+  flex: 0 0 20px;
 }
 .calendar__image img {
   object-fit: cover;
