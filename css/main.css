@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -81,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "BankGothicMdBT";
-  src: url("../fonts/BankGothic Md BT.eot");
+  src: url("../fonts/BankGothicMdBT.eot");
   src: local("☺"), url("../fonts/BankGothicMdBT.woff") format("woff"), url("../fonts/BankGothicMdBT.ttf") format("truetype"), url("../fonts/BankGothicMdBT.svg") format("svg");
   font-weight: 400;
   font-style: normal;
@@ -486,11 +487,12 @@ body.lock {
   justify-content: space-between;
   margin: 0 0 60px 0;
   font-size: calc(14px + 6 * ((100vw - 320px) / (1180 - 320)));
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
 }
 
 .article__about__header-first {
   max-width: 500px;
-  font-family: "BankGothicMdBT";
   padding: 0 10px 0 0;
 }
 @media (max-width: 968px) {
@@ -511,7 +513,6 @@ body.lock {
 
 .article__about__header-second {
   max-width: 500px;
-  font-family: "BankGothicMdBT";
   padding: 0 0 0 10px;
 }
 @media (max-width: 968px) {
@@ -534,19 +535,18 @@ body.lock {
 }
 
 .about__article__text {
-  font-family: "BankGothicMdBT";
+  font-family: "Montserrat", sans-serif;
   font-size: calc(14px + 6 * ((100vw - 320px) / (1180 - 320)));
 }
 
 .article__about__footer {
-  font-family: "BankGothicMdBT";
+  font-family: "Montserrat", sans-serif;
 }
 
 .reward__title {
-  text-transform: uppercase;
   font-weight: 700;
   padding: 0 0 10px 0;
-  font-size: calc(14px + 8 * ((100vw - 320px) / (1180 - 320)));
+  font-size: calc(14px + 4 * ((100vw - 320px) / (1180 - 320)));
 }
 
 .about__footer__description {
@@ -565,7 +565,7 @@ body.lock {
 
 .article__about__footer-important {
   padding: 20px 0;
-  font-size: calc(14px + 8 * ((100vw - 320px) / (1180 - 320)));
+  font-size: calc(14px + 4 * ((100vw - 320px) / (1180 - 320)));
 }
 
 .article__container-roadmap {
