@@ -34,7 +34,7 @@
             </ul>
           </div>
           <div class="nav__menu__links">
-            <a href="http://facebook.com/103578471206969/">
+            <a href="https://t.me/Falcon_announcement">
               <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path id="link-1" fill-rule="evenodd" clip-rule="evenodd" d="M8.46429 19.7225V19.8279C8.46429 21.199 9.60714 22.324 11 22.324C12.3929 22.324 13.5357 21.199 13.5357 19.8279V19.7225H13.75H20C21.1071 19.7225 22 18.8436 22 17.7537C22 16.6639 21.1071 15.7498 20 15.7498H19.4643H19.4286H18.7857C18.6071 15.4686 18.5 15.117 18.5 14.7655V10.371C18.5 6.96087 16.1786 4.04293 12.8214 3.19919C12.7857 3.19919 12.7143 3.16403 12.7143 3.09372C12.6786 3.02341 12.6786 2.98825 12.7143 2.91794C12.8929 2.63669 13 2.28513 13 1.93357C13 0.843741 12.1071 0 11 0C9.89286 0 9.03572 0.843741 9.03572 1.93357C9.03572 2.28513 9.10714 2.63669 9.28572 2.91794C9.32143 2.98825 9.32143 3.02341 9.32143 3.09372C9.28572 3.16403 9.21429 3.19919 9.17857 3.19919C5.82143 4.04293 3.5 6.96087 3.5 10.371V14.7655C3.5 15.117 3.39286 15.4686 3.21429 15.7498H2.57143H2.03571C0.928571 15.7498 0 16.6639 0 17.7537C0 18.8436 0.928571 19.7225 2.03571 19.7225H8.28572H8.46429ZM12.0714 1.93357C12.0714 2.53122 11.6071 2.98825 11 2.98825C10.3929 2.98825 9.92857 2.53122 9.92857 1.93357C9.92857 1.33592 10.3929 0.878897 11 0.878897C11.6071 0.878897 12.0714 1.33592 12.0714 1.93357Z" fill="url(#paint0_linear)"/>
               <defs>
@@ -201,19 +201,115 @@
       </div>
       <div class="footer__upper">
         <div class="footer__upper__social">
-          <a href="https://twitter.com/Falcon_SBS"><img src="source/footer/twitter.png" alt="twitter"></a>
+          <a href="https://twitter.com/Falcon_SBS">
+            <svg width="65" height="55" viewBox="0 0 65 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_d)">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M31.0059 16.2257C20.2588 15.5972 10.7471 10.4428 4.32353 2.39692C3.21176 4.40838 2.59412 6.67128 2.59412 9.0599C2.59412 13.5857 4.94118 17.6086 8.4 19.9972C6.3 19.9972 4.2 19.3687 2.47059 18.3629V18.4886C2.47059 24.9002 6.91765 30.1803 12.8471 31.4375C11.7353 31.6889 10.6235 31.9403 9.51176 31.9403C8.64706 31.9403 7.78235 31.8146 7.04118 31.6889C8.64706 36.8433 13.4647 40.7405 19.1471 40.7405C14.7 44.3863 9.14118 46.3977 3.08824 46.3977C1.97647 46.3977 0.988235 46.3977 0 46.272C5.68235 50.0435 12.4765 52.1807 19.7647 52.1807C43.6059 52.1807 56.5765 32.066 56.5765 14.7171V12.9571C59.0471 11.1971 61.2706 8.80847 63 6.16842C60.6529 7.17415 58.1824 7.92845 55.5882 8.3056C58.3059 6.67128 60.2824 4.03123 61.2706 1.01403C58.8 2.52263 55.9588 3.52837 53.1176 4.15695C50.7706 1.64262 47.3118 0.00830078 43.6059 0.00830078C36.4412 0.00830078 30.6353 5.91698 30.6353 13.2085C30.6353 14.2143 30.7588 15.22 31.0059 16.2257Z" fill="url(#paint0_linear)"/>
+            </g>
+            <defs>
+            <filter id="filter0_d" x="0" y="0.00830078" width="65" height="54.1724" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+            <feOffset dx="2" dy="2"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+            </filter>
+            <linearGradient id="paint0_linear" x1="-1.37092e-07" y1="41.3864" x2="61.9172" y2="39.2679" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00FFFF"/>
+            <stop offset="1" stop-color="#66FFCC"/>
+            </linearGradient>
+            </defs>
+            </svg>
+          </a>
         </div>
         <div class="footer__upper__social">
-          <a href="https://t.me/Falcon_official"><img src="source/footer/tg.png" alt="twitter"></a>
+          <a href="https://t.me/Falcon_official"><svg width="65" height="59" viewBox="0 0 65 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_d)">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M51.3817 12.4152L24.843 37.2007L24.2315 40.615L23.62 47.4436L18.4835 32.1424L50.1587 11.2771C50.1587 11.2771 52.1155 10.0126 52.1155 11.2771C52.1155 11.2771 52.4824 11.4036 51.3817 12.4152ZM58.3527 0.654794L2.34009 23.2905C2.34009 23.2905 -0.228172 24.3021 0.0164243 25.9461C0.138723 27.7165 2.34009 28.4752 2.34009 28.4752L15.0591 32.9012L23.0085 54.7781C23.7423 55.1575 24.4761 54.5252 24.4761 54.5252L33.893 44.9145L47.7127 55.7898C51.6263 57.5602 52.9715 53.8929 52.9715 53.8929L63 2.04581C63 -1.49496 58.3527 0.654794 58.3527 0.654794Z" fill="url(#paint0_linear)"/>
+          </g>
+          <defs>
+          <filter id="filter0_d" x="0" y="0.00830078" width="65" height="58.2644" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+          <feOffset dx="2" dy="2"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+          </filter>
+          <linearGradient id="paint0_linear" x1="-1.37092e-07" y1="44.6318" x2="61.9274" y2="42.667" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#00FFFF"/>
+          <stop offset="1" stop-color="#66FFCC"/>
+          </linearGradient>
+          </defs>
+          </svg>
+          </a>
         </div>
         <div class="footer__upper__social">
-          <a href="http://bitcointalk.org/index.php?topic=5225836"><img src="source/footer/bitcoin.png" alt="bitcoin"></a>
+          <a href="http://bitcointalk.org/index.php?topic=5225836"><svg width="70" height="71" viewBox="0 0 70 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_d)">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M34.2332 62.6008C49.488 62.4199 61.7102 49.6143 61.5332 33.9999C61.3559 18.3847 48.8469 5.87006 33.5932 6.05151C18.3428 6.23207 6.12082 19.0386 6.29997 34.6542C6.47512 50.2682 18.9845 62.7809 34.2332 62.6008ZM37.0565 21.9432C41.0929 22.257 44.3011 23.4888 44.6997 27.2721C44.996 30.0404 43.8825 31.7174 42.082 32.683C45.0715 33.3804 46.9601 35.1722 46.6376 39.2419C46.2384 44.296 42.578 45.6941 37.3297 46.0649L37.3888 51.3689L34.2649 51.4064L34.207 46.1732C33.3975 46.1836 32.5683 46.1865 31.7113 46.1785L31.7709 51.4358L28.6505 51.4724L28.589 46.1589C28.2969 46.1604 28.0026 46.1607 27.7062 46.161C27.2611 46.1613 26.8113 46.1617 26.3571 46.1666L22.2919 46.215L22.8693 42.3885C22.8693 42.3885 25.1805 42.398 25.1401 42.3622C26.0241 42.3501 26.2508 41.6974 26.3018 41.2891L26.2076 32.9046C26.2841 32.903 26.3593 32.9022 26.4318 32.9015C26.4678 32.9011 26.5031 32.9007 26.5376 32.9003C26.4084 32.8837 26.2944 32.8813 26.2071 32.8819L26.1391 26.8969C26.0119 26.2494 25.5916 25.5023 24.3263 25.5169C24.3641 25.4729 22.0578 25.5453 22.0578 25.5453L22.0183 22.1299L26.3268 22.0803L26.3274 22.0966C26.9751 22.0885 27.6391 22.0677 28.3153 22.0456L28.2569 16.7934L31.3791 16.7564L31.4369 21.9055C32.2707 21.8785 33.11 21.852 33.9312 21.8421L33.8731 16.7269L36.9969 16.6895L37.0565 21.9432ZM32.3514 42.3094C34.9097 42.3154 40.5009 42.3285 40.458 38.6855C40.416 34.9601 35.0463 35.1537 32.426 35.2482C32.1332 35.2588 31.8748 35.2681 31.6619 35.2706L31.7409 42.3106C31.9156 42.3084 32.1213 42.3089 32.3514 42.3094ZM32.1393 32.0481C34.2737 32.0587 38.9293 32.0818 38.8927 28.7702C38.8539 25.3831 34.3794 25.5576 32.1942 25.6429C31.9484 25.6524 31.7315 25.6609 31.5532 25.663L31.6253 32.048C31.7722 32.0463 31.9454 32.0472 32.1393 32.0481Z" fill="url(#paint0_linear)"/>
+          </g>
+          <defs>
+          <filter id="filter0_d" x="0" y="0" width="69.8317" height="70.6515" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+          <feOffset dx="2" dy="2"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+          </filter>
+          <linearGradient id="paint0_linear" x1="11.3405" y1="57.3459" x2="63.592" y2="42.1117" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#00FFFF"/>
+          <stop offset="1" stop-color="#66FFCC"/>
+          </linearGradient>
+          </defs>
+          </svg>
+          </a>
         </div>
         <div class="footer__upper__social">
-          <a href="http://facebook.com/103578471206969/"><img src="source/footer/fb.png" alt="facebook"></a>
+          <a href="http://facebook.com/103578471206969/"><svg width="57" height="59" viewBox="0 0 57 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_d)">
+          <path d="M51.964 0.00830084H3.03333C1.35788 0.00933108 -0.000335631 1.39946 6.22135e-08 3.1141V53.1696C0.00100715 54.8836 1.35989 56.273 3.03601 56.2727H29.3799V34.5142H22.2363V25.9976H29.3799V19.73C29.3799 12.4617 33.7174 8.50565 40.0553 8.50565C43.0909 8.50565 45.6996 8.73711 46.46 8.84047V16.4371H42.0896C38.6413 16.4371 37.9736 18.1132 37.9736 20.5734V25.9976H46.2183L45.144 34.5142H37.9736V56.2727H51.964C53.6404 56.273 54.9997 54.8832 55 53.1682C55 53.1679 55 53.1675 55 53.1669V3.11136C54.9993 1.3974 53.6401 0.00795743 51.964 0.00830084Z" fill="url(#paint0_linear)"/>
+          </g>
+          <defs>
+          <filter id="filter0_d" x="0" y="0.00830078" width="57" height="58.2644" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+          <feOffset dx="2" dy="2"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+          </filter>
+          <linearGradient id="paint0_linear" x1="-1.19683e-07" y1="44.6318" x2="54.0765" y2="43.1339" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#00FFFF"/>
+          <stop offset="1" stop-color="#66FFCC"/>
+          </linearGradient>
+          </defs>
+          </svg>
+          </a>
         </div>
         <div class="footer__upper__social">
-          <a href="https://www.instagram.com/falcon.crypto/"><img src="source/footer/instagram.png" alt="instagram"></a>
+          <a href="https://www.instagram.com/falcon.crypto/"><svg width="58" height="59" viewBox="0 0 58 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_d)">
+          <path d="M27.6072 0.0355646C16.2996 0.0355646 5.56193 -0.99415 1.46055 9.78119C-0.233558 14.2316 0.0124627 20.0114 0.0124627 28.2874C0.0124627 35.5496 -0.214873 42.375 1.46055 46.7903C5.55258 57.5721 16.3775 56.5392 27.601 56.5392C38.429 56.5392 49.5933 57.6932 53.7445 46.7903C55.4417 42.2953 55.1926 36.6016 55.1926 28.2874C55.1926 17.2506 55.7874 10.1255 50.5587 4.77608C45.2646 -0.643473 38.1051 0.0355646 27.5947 0.0355646H27.6072ZM25.1345 5.12675C48.7213 5.0885 51.7234 2.40423 50.0666 39.6939C49.4781 52.8825 39.6684 51.4352 27.6103 51.4352C5.62421 51.4352 4.99203 50.7912 4.99203 28.2746C4.99203 5.49656 6.73597 5.13951 25.1345 5.12038V5.12675ZM42.3372 9.81626C40.5092 9.81626 39.0269 11.3337 39.0269 13.2051C39.0269 15.0764 40.5092 16.5939 42.3372 16.5939C44.1653 16.5939 45.6476 15.0764 45.6476 13.2051C45.6476 11.3337 44.1653 9.81626 42.3372 9.81626ZM27.6072 13.7789C19.7813 13.7789 13.4377 20.276 13.4377 28.2874C13.4377 36.2987 19.7813 42.7926 27.6072 42.7926C35.4331 42.7926 41.7736 36.2987 41.7736 28.2874C41.7736 20.276 35.4331 13.7789 27.6072 13.7789ZM27.6072 18.8701C39.7681 18.8701 39.7836 37.7046 27.6072 37.7046C15.4494 37.7046 15.4308 18.8701 27.6072 18.8701Z" fill="url(#paint0_linear)"/>
+          </g>
+          <defs>
+          <filter id="filter0_d" x="0" y="0.00830078" width="57.213" height="58.5661" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+          <feOffset dx="2" dy="2"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+          </filter>
+          <linearGradient id="paint0_linear" x1="-36.0219" y1="44.8711" x2="18.2642" y2="43.3697" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#00FFFF"/>
+          <stop offset="1" stop-color="#66FFCC"/>
+          </linearGradient>
+          </defs>
+          </svg>
+          </a>
         </div>
       </div>
     </div>
@@ -243,7 +339,7 @@
             <a href="https://twitter.com/shinobi_win"><img class="team-links-twitter" src="source/1stPage/twitterfoot.svg">Shinobi</a>
             <a href="https://twitter.com/1mkoma"><img class="team-links-twitter" src="source/1stPage/twitterfoot.svg">M K</a>
             <a href="https://twitter.com/Falcon_SBS"><img class="team-links-twitter" src="source/1stPage/twitterfoot.svg">Burton</a>
-            <a href="https://twitter.com/vi_taly"><img class="team-links-twitter" src="source/1stPage/twitterfoot.svg">Abu-Bakr</a>
+            <a href="https://twitter.com/Abubakr101?s=09"><img class="team-links-twitter" src="source/1stPage/twitterfoot.svg">Abu-Bakr</a>
           </div>
         </div>
       </div>
