@@ -42,7 +42,7 @@ jQuery(document).ready(function() {
 const burgerSlide = () => {
   const burger = document.querySelector('.nav__container__burger');
   let nav = document.querySelector ('.header__container');
-  let navLinks = document.querySelectorAll ('.nav__menu__list-item li a');
+  const navLinks = document.querySelectorAll ('.nav__menu__list-item li');
   const lock = document.querySelector ('body');
   let border = document.querySelector ('.header__border');
 
@@ -52,11 +52,11 @@ const burgerSlide = () => {
     lock.classList.toggle('lock');
     border.classList.toggle('active');
 
-      navLinks.forEach((link, i) => {
+      navLinks.forEach((link, index) => {
         if (link.style.animation) {
             link.style.animation = '';
         } else {
-        link.style.animation = `fade 0.5s ease forwards ${i / 7 + 1.5}s`;
+            link.style.animation = `navLinksFade 0.5s ease forwards ${index / 7 + 0.3}s`;
         }
       });
    });
@@ -65,7 +65,7 @@ const burgerSlide = () => {
 burgerSlide();
 
 
-$(".nav__menu__list-item li a").click(function(){
+$(".nav__menu__list-item li").click(function(){
 $(".header__container").removeClass('active')
 $("body").removeClass('lock')
 $(".header__border").removeClass('active')
