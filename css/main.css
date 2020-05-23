@@ -128,8 +128,8 @@ body.lock {
 }
 @media (max-width: 968px) {
   .wrapper__background__left {
-    height: 67%;
-    width: 67%;
+    height: 70%;
+    width: 70%;
     position: absolute;
     left: 0;
     top: -25%;
@@ -155,7 +155,7 @@ body.lock {
     width: 70%;
     position: absolute;
     right: 0;
-    bottom: -5%;
+    bottom: -7%;
   }
 }
 
@@ -172,6 +172,11 @@ body.lock {
   width: 100%;
   z-index: 1;
   flex-grow: 1;
+}
+@media (max-width: 968px) {
+  .header {
+    height: 80px;
+  }
 }
 .header:before {
   content: "";
@@ -227,8 +232,12 @@ body.lock {
 }
 @media (max-width: 968px) {
   .header__border {
+    top: 80px;
     height: 2px;
   }
+}
+.header__border.active {
+  transform: rotate(180deg);
 }
 
 .nav__menu {
@@ -259,7 +268,7 @@ body.lock {
 }
 @media (max-width: 968px) {
   .nav__menu__list-item li {
-    padding: 190px 0 0 0;
+    padding: 135px 0 0 0;
     min-height: 400px;
     display: flex;
     flex-direction: column;
@@ -285,10 +294,23 @@ body.lock {
 }
 @media (max-width: 968px) {
   .nav__menu__links {
-    padding: 15px 0;
+    display: none;
   }
-  .nav__menu__links img {
-    padding: 20px 20px;
+}
+
+.nav__menu__links-media {
+  display: none;
+}
+@media (max-width: 968px) {
+  .nav__menu__links-media {
+    display: block;
+    position: fixed;
+    top: 33px;
+    left: 10px;
+    z-index: 4;
+  }
+  .nav__menu__links-media img {
+    padding: 0 18px;
   }
 }
 
@@ -301,7 +323,7 @@ body.lock {
     position: absolute;
     width: 36px;
     height: 36px;
-    top: 30px;
+    top: 24px;
     right: 17px;
     cursor: pointer;
     z-index: 4;
@@ -319,28 +341,29 @@ body.lock {
     position: absolute;
     width: 36px;
     height: 2px;
-    top: 16px;
+    top: 17px;
     right: 0px;
     transition: all 0.3s ease 0s;
     z-index: 3;
   }
   .nav__container__burger span:first-child {
-    top: 8px;
+    top: 9px;
     transition: all 0.3s ease 0s;
   }
   .nav__container__burger span:last-child {
-    top: 24px;
+    top: 25px;
     transition: all 0.3s ease 0s;
   }
   .nav__container__burger.active span {
     width: 30px;
-    left: 3px;
+    left: 2.6px;
+    top: 4px;
     transform: scale(0);
     background: linear-gradient(264.69deg, #FF003D -7.43%, #FF03C8 100%);
   }
   .nav__container__burger.active span:first-child {
     transform: rotate(45deg);
-    top: 17px;
+    top: 16px;
   }
   .nav__container__burger.active span:last-child {
     transform: rotate(-45deg);
@@ -416,7 +439,7 @@ body.lock {
   .main__head__description {
     text-align: center;
     padding: 0 35px;
-    line-height: 20px;
+    line-height: 23px;
   }
 }
 
@@ -495,6 +518,12 @@ body.lock {
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
 }
+@media (max-width: 768px) {
+  .article__about__header {
+    display: block;
+    margin: 0 0 20px 0;
+  }
+}
 
 .article__about__header-first {
   max-width: 500px;
@@ -522,9 +551,9 @@ body.lock {
   text-align: justify;
   padding: 0 0 0 10px;
 }
-@media (max-width: 968px) {
+@media (max-width: 768px) {
   .article__about__header-second {
-    padding: 0 0 0 7px;
+    padding: 5px 0 0 0;
   }
 }
 
@@ -539,6 +568,11 @@ body.lock {
 
 .article__about__header-article {
   margin: 60px 0;
+}
+@media (max-width: 768px) {
+  .article__about__header-article {
+    margin: 30px 0;
+  }
 }
 
 .about__article__text {
@@ -804,7 +838,6 @@ body.lock {
   .team__members-list-admins {
     margin: 20px 0;
     justify-content: center;
-    padding: 0 0 0 25px;
   }
 }
 
@@ -822,18 +855,21 @@ body.lock {
 }
 
 .team-links-twitter {
-  padding: 0 10px 0 0;
+  position: relative;
+  right: 7px;
+  bottom: 4px;
 }
 
 .team__members-list-helpers {
   display: flex;
 }
 .team__members-list-helpers a {
-  padding: 6px 0;
+  padding: 3px 0;
 }
 @media (max-width: 968px) {
   .team__members-list-helpers {
     justify-content: center;
+    margin: 0 14px 0 0;
   }
 }
 
@@ -878,7 +914,14 @@ body.lock {
 }
 
 .footer__lower__logo {
-  padding: 0 0 20px 0;
+  padding: 0 0 10px 0;
+  display: flex;
+  flex: 0 0 15px;
+}
+.footer__lower__logo img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .footer__lower__text {
@@ -889,4 +932,5 @@ body.lock {
   color: white;
   opacity: 0.5;
   padding: 0 0 15px 0;
+  font-size: calc(12px + 8 * ((100vw - 320px) / (1180 - 320)));
 }
