@@ -3,11 +3,18 @@ const changeBg = () => {
   const background2 = document.querySelector('.wrapper__background__right')
   const hoverChange = document.querySelector('.nav__menu__list-item');
   const hoverChangeTwo = document.querySelector('.nav__menu__list-item');
+  const hoverBarChange = document.querySelector('.header__border');
 
     hoverChange.addEventListener('mouseover', handle);
     hoverChange.addEventListener('mouseleave', handle2);
     hoverChangeTwo.addEventListener('mouseover', handle3);
     hoverChangeTwo.addEventListener('mouseleave', handle4);
+    hoverChange.addEventListener('mouseover',()=> {
+      hoverBarChange.classList.toggle('active');
+    });
+    hoverBarChange.addEventListener('mouseleave', ()=> {
+      hoverBarChange.classList.remove('active')
+    });
 
   function handle() {
     background.style.background = 'url(../source/vectors/violet.svg) bottom left/auto 50% no-repeat';
@@ -42,7 +49,7 @@ jQuery(document).ready(function() {
 const burgerSlide = () => {
   const burger = document.querySelector('.nav__container__burger');
   let nav = document.querySelector ('.header__container');
-  const navLinks = document.querySelectorAll ('.nav__menu__list-item li');
+  let navLinks = document.querySelectorAll ('.nav__menu__list-item li');
   const lock = document.querySelector ('body');
   let border = document.querySelector ('.header__border');
 
@@ -51,6 +58,7 @@ const burgerSlide = () => {
     burger.classList.toggle('active');
     lock.classList.toggle('lock');
     border.classList.toggle('active');
+
 
       navLinks.forEach((link, index) => {
         if (link.style.animation) {
@@ -65,8 +73,11 @@ const burgerSlide = () => {
 burgerSlide();
 
 
-$(".nav__menu__list-item li").click(function(){
+$(".nav__menu__list-item li a").click(function(){
 $(".header__container").removeClass('active')
 $("body").removeClass('lock')
 $(".header__border").removeClass('active')
+$(".nav__container__burger").removeClass('active')
+$('.nav__menu__list-item li').removeAttr( 'style' );
+
 })
