@@ -20,33 +20,36 @@
     </div>
     <header class="header">
       <div class="header__container">
-          <nav class="nav__menu">
-            <div class="nav__menu__list">
-              <ul class="nav__menu__list-item">
-                <li>
-                  <a href="#article" class="item__link">about</a>
-                  <a href="#roadmap" class="item__link">roadmap</a>
-                  <a href="#comminity" class="item__link">comminity</a>
-                  <a href="#team" class="item__link">team</a>
-                  <a href="" class="item__link">events</a>
-                  <a href="" class="item__link">swap</a>
-                </li>
-              </ul>
-            </div>
-            <div class="nav__menu__links">
-              <a href=""><img src="source/1stPage/fb.svg" alt=""></a>
-              <a href="https://twitter.com/Falcon_SBS">
-                <img src="source/1stPage/twitter.svg" alt=""></a>
-              <a href="https://t.me/Falcon_official">
-                <img src="source/1stPage/tg.svg" alt=""></a>
-            </div>
-          </nav>
-        </div>
-        <div class="nav__container__burger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+        <nav class="nav__menu">
+          <div class="nav__menu__list">
+            <ul class="nav__menu__list-item">
+              <li>
+                <a href="#article" class="item__link">about</a>
+                <a href="#roadmap" class="item__link">roadmap</a>
+                <a href="#comminity" class="item__link">comminity</a>
+                <a href="#team" class="item__link">team</a>
+                <a href="" class="item__link">events</a>
+                <a href="" class="item__link">swap</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav__menu__links">
+            <a href="http://facebook.com/103578471206969/"><img src="source/1stPage/fb.svg" alt=""></a>
+            <a href="https://twitter.com/Falcon_SBS"><img src="source/1stPage/twitter.svg" alt=""></a>
+            <a href="https://t.me/Falcon_official"><img src="source/1stPage/tg.svg" alt=""></a>
+          </div>
+        </nav>
+      </div>
+      <div class="nav__menu__links-media">
+        <a href="http://facebook.com/103578471206969/"><img src="source/1stPage/fb.svg" alt=""></a>
+        <a href="https://twitter.com/Falcon_SBS"><img src="source/1stPage/twitter.svg" alt=""></a>
+        <a href="https://t.me/Falcon_official"><img src="source/1stPage/tg.svg" alt=""></a>
+      </div>
+      <div class="nav__container__burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <hr class="header__border">
     </header>
     <div class="container">
@@ -68,7 +71,7 @@
         </div>
       </section>
       <article class="article">
-        <a name="about" class="anchor" id="article"></a>
+        <a class="anchor" id="article"></a>
         <div class="article__container">
           <div class="article__about">
             <div class="article__about__title">
@@ -111,7 +114,7 @@
             </div>
           </div>
         </div>
-        <a name="about" class="anchor" id="roadmap"></a>
+        <a class="anchor" id="roadmap"></a>
         <div class="article__container-roadmap">
           <div class="article__roadmap">
             <div class="article__roadmap__title">
@@ -174,13 +177,13 @@
           <a href="https://t.me/Falcon_official"><img src="source/footer/tg.png" alt="twitter"></a>
         </div>
         <div class="footer__upper__social">
-          <a href="#"><img src="source/footer/bitcoin.png" alt="twitter"></a>
+          <a href="http://bitcointalk.org/index.php?topic=5225836"><img src="source/footer/bitcoin.png" alt="bitcoin"></a>
         </div>
         <div class="footer__upper__social">
-          <a href="#"><img src="source/footer/fb.png" alt="twitter"></a>
+          <a href="http://facebook.com/103578471206969/"><img src="source/footer/fb.png" alt="facebook"></a>
         </div>
         <div class="footer__upper__social">
-          <a href="#"><img src="source/footer/instagram.png" alt="twitter"></a>
+          <a href="https://www.instagram.com/falcon.crypto/"><img src="source/footer/instagram.png" alt="instagram"></a>
         </div>
       </div>
     </div>
@@ -209,6 +212,8 @@
             <a href="https://twitter.com/vi_taly"><img class="team-links-twitter" src="source/1stPage/twitterfoot.svg">Vitaly</a>
             <a href="https://twitter.com/shinobi_win"><img class="team-links-twitter" src="source/1stPage/twitterfoot.svg">Shinobi</a>
             <a href="https://twitter.com/1mkoma"><img class="team-links-twitter" src="source/1stPage/twitterfoot.svg">M K</a>
+            <a href="https://twitter.com/Falcon_SBS"><img class="team-links-twitter" src="source/1stPage/twitterfoot.svg">Burton</a>
+            <a href="https://twitter.com/vi_taly"><img class="team-links-twitter" src="source/1stPage/twitterfoot.svg">Abu-Bakr</a>
           </div>
         </div>
       </div>
@@ -217,7 +222,9 @@
       <div class="footer__container">
         <div class="footer__lower">
           <div class="footer__lower__logo">
-            <img src="source/footer/falconlogo.png" alt="Falcon's Logo">
+            <a href="#top">
+              <img src="source/footer/falconlogo.png" alt="Falcon's Logo">
+            </a>
           </div>
           <div class="footer__lower__text">
             <h5>© Falcon Project, 2020</h5>
