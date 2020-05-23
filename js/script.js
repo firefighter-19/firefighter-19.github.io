@@ -12,7 +12,7 @@ const changeBg = () => {
     hoverChange.addEventListener('mouseover',()=> {
       hoverBarChange.classList.toggle('active');
     });
-    hoverBarChange.addEventListener('mouseleave', ()=> {
+    hoverChange.addEventListener('mouseleave', ()=> {
       hoverBarChange.classList.remove('active')
     });
 
