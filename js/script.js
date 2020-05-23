@@ -30,11 +30,10 @@ changeBg ();
 
 let changedHeight = $('')
 
-
 jQuery(document).ready(function() {
   jQuery(".item__link").click(function () {
   elementClick = jQuery(this).attr("href")
-  destination = jQuery(elementClick).offset().top - 85;
+  destination = jQuery(elementClick).offset().top - 77;
   jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 700);
   return false;
   });
@@ -45,11 +44,13 @@ const burgerSlide = () => {
   let nav = document.querySelector ('.header__container');
   let navLinks = document.querySelectorAll ('.nav__menu__list-item li a');
   const lock = document.querySelector ('body');
+  let border = document.querySelector ('.header__border');
 
   burger.addEventListener('click',()=> {
     nav.classList.toggle('active');
     burger.classList.toggle('active');
     lock.classList.toggle('lock');
+    border.classList.toggle('active');
 
       navLinks.forEach((link, i) => {
         if (link.style.animation) {
@@ -67,4 +68,5 @@ burgerSlide();
 $(".nav__menu__list-item li a").click(function(){
 $(".header__container").removeClass('active')
 $("body").removeClass('lock')
+$(".header__border").removeClass('active')
 })
