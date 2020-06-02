@@ -37,14 +37,14 @@ changeBg ();
 
 let changedHeight = $('')
 
-jQuery(document).ready(function() {
-  jQuery(".item__link").click(function () {
-  elementClick = jQuery(this).attr("href")
-  destination = jQuery(elementClick).offset().top - 77;
-  jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 700);
-  return false;
-  });
-});
+// jQuery(document).ready(function() {
+//   jQuery(".item__link").click(function () {
+//   elementClick = jQuery(this).attr("href")
+//   destination = jQuery(elementClick).offset().top - 77;
+//   jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 700);
+//   return false;
+//   });
+// });
 
 const burgerSlide = () => {
   const burger = document.querySelector('.nav__container__burger');
@@ -81,3 +81,29 @@ $(".nav__container__burger").removeClass('active')
 $('.nav__menu__list-item li').removeAttr( 'style' );
 
 })
+
+//===========================MODAL__WINDOW=============================
+
+const body = document.querySelector('body')
+const modal = document.querySelector('.modal')
+const openModalButton = document.querySelector('.open__modal')
+const closeModalButton = document.querySelector('.modal__close')
+
+function existVerticalScroll() {
+   return document.body.offsetHeight > window.innerHeight
+}
+
+function getBodyScrollTop() {
+    return self.pageYOffset || (document.documentElement && document.documentElement.ScrollTop) || (document.body && document.body.scrollTop);
+}
+
+
+openModalButton.addEventListener('click',() => {
+    body.classList.toggle('lock');
+    modal.classList.add('modal__opened');
+})
+
+closeModalButton.addEventListener('click',() => {
+  body.classList.remove('lock');
+  modal.classList.remove('modal__opened');
+});
