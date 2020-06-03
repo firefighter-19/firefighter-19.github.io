@@ -198,7 +198,7 @@
                 <a href="team" class="item__link">team</a>
                 <a href="https://falconofficial.com/events" class="item__link">events</a>
                 <a href="#popup2" class="item__link popup-link">swap</a>
-                <a href="https://falconofficial.com/services" class="item__link">services</a>
+                <a href="#popup3" class="item__link popup-link">services</a>
               </li>
             </ul>
           </div>
@@ -254,21 +254,19 @@
     <a class="anchor" id="top"></a>
     <div class="container">
       <section class="section">
-        <div class="section__container">
-          <div class="main">
-            <div class="main__head">
-              <div class="main__head__header">
-                <h1>falcon project</h1>
-              </div>
-              <div class="main__head__description">
-                <p>This is an ecosystem that includes two completely interchangeable   blockchains.</p>
-              </div>
+        <div class="main">
+          <div class="main__head">
+            <div class="main__head__header">
+              <h1>falcon project</h1>
             </div>
-            <div class="main__head__logo">
-              <img src="source/1stPage/logo.png" alt="Logo">
+            <div class="main__head__description">
+              <p>This is an ecosystem that includes two completely interchangeable   blockchains.</p>
             </div>
           </div>
-        </div>
+          <div class="main__head__logo">
+            <img src="source/1stPage/logo.png" alt="Logo">
+          </div>
+        </div>        
       </section>
       <article class="article">
         <a class="anchor" id="article"></a>
@@ -345,7 +343,7 @@
               <svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M5 12.01L5 -7.62939e-06L3 -7.62939e-06L3 12.01L4.76837e-07 12.01L4 16L8 12.01L5 12.01V12.01Z" fill="black"/>
               </svg>
-              <div class="article__roadmap__description-items">Exchange listings</div>
+              <div class="article__roadmap__description-items"><img src="source/1stPage/achieved.svg" alt="achieved">Exchange listings</div>
               <svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M5 12.01L5 -7.62939e-06L3 -7.62939e-06L3 12.01L4.76837e-07 12.01L4 16L8 12.01L5 12.01V12.01Z" fill="black"/>
               </svg>
@@ -419,8 +417,20 @@
     <div class="popup" id="popup2">
       <div class="popup__body">
         <div class="popup__content swap">
-          <a href="#" class="close-popup"><img src="source/1stPage/x2.ico" alt=""></a>
-          <div class="popup__title__swap"><img src="source/uc-2.png" alt=""></div>          
+          <a href="#" class="close-popup"><img src="source/1stPage/close.png" alt=""></a>
+          <div class="popup__title__swap">
+            <a href="http://t.me/Falcon_swap_bot" class="popup__bot-link"><img src="source/swap/bot.jpg" alt="bot">Push me ;)</a>
+            <img src="source/uc-2.png" alt="">
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup3">
+      <div class="popup__body">
+        <div class="popup__content services">
+          <a href="#" class="close-popup"><img src="source/1stPage/close.png" alt=""></a>
+          <div class="popup__title__swap"><img src="source/uc-2.png" alt=""></div>
         </div>
       </div>
     </div>
