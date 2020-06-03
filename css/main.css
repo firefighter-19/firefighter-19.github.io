@@ -234,7 +234,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav__menu__list {
   display: flex;
-  justify-content: flex-end;
 }
 
 .nav__menu__list-item {
@@ -246,8 +245,8 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 968px) {
   .nav__menu__list-item li {
     opacity: 0;
-    padding: 135px 0 0 0;
-    min-height: 400px;
+    margin: 100px 0 0 0;
+    min-height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -569,6 +568,9 @@ body.lock {
 
 .section {
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 @media (max-width: 1024px) {
   .section {
@@ -599,7 +601,6 @@ body.lock {
 }
 
 .main__head {
-  padding: 230px 60px 0 0;
   color: white;
 }
 @media (max-width: 1024px) {
@@ -659,7 +660,6 @@ body.lock {
 }
 
 .main__head__logo {
-  padding: 230px 18px 0 0;
   display: flex;
   flex: 0 0 300px;
   justify-content: center;
@@ -885,7 +885,7 @@ body.lock {
     line-height: 30px;
   }
   .article__roadmap__description img {
-    top: 6px;
+    top: 6.5px;
   }
 }
 
