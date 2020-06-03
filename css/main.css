@@ -994,6 +994,10 @@ body.lock {
 }
 
 .popup__content.swap {
+  position: relative;
+  padding: 0;
+}
+.popup__content.services {
   padding: 0;
 }
 
@@ -1006,4 +1010,32 @@ body.lock {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.popup__swap-bot {
+  position: absolute;
+  display: flex;
+  flex: 0 0 150px;
+  max-width: 100px;
+}
+
+.popup__bot-link {
+  position: absolute;
+  top: 15%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  flex: 0 0 150px;
+  max-width: 100px;
+}
+.popup__bot-link img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .popup__bot-link {
+    max-width: 60px;
+  }
 }
